@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.formulae.DetailsActivity$PlaceholderFragment">
+
+    <!-- Element(s) for description fragment -->
+    <LinearLayout
+        android:id="@+id/linearLayout_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <WebView
+            android:id="@+id/webView_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/primaryText"
+            android:background="@color/icons"/>
+
+    </LinearLayout>
+
+    <!-- Element(s) for formulae fragment -->
+    <LinearLayout
+        android:id="@+id/linearLayout_formulae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_formulas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTopicsBg" />
+
+    </LinearLayout>
+
+    <!-- Element(s) for calculator fragment -->
+    <TextView
+        android:id="@+id/textView_calculatorNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select a formula from the 'FORMULAE' tab."
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_formulaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formula title"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+        <io.github.kexanie.library.MathView
+            android:id="@+id/mathView_formula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:text="Formula"
+            app:engine="MathJax"/>
+
+        <io.github.kexanie.library.MathView
+            android:id="@+id/textView_notations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:paddingLeft="30dp"
+            android:text="Notations"/>
+
+        <!--<WebView
+            android:id="@+id/webView_formula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/primaryText"
+            android:background="@color/icons"
+            android:scrollbars="none" />-->
+
+    </LinearLayout>
+</LinearLayout>

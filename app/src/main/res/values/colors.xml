@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <!--<color name="colorPrimary2">#212121</color>
+    <color name="colorPrimaryDark2">#000000</color>
+    <color name="colorAccent2">#FF4081</color>-->
+
+    <!--<color name="colorPrimary">#019875</color>
+    <color name="colorPrimaryDark">#22313F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <!--<color name="colorLoginBg">#019875</color>
+    <color name="colorLoginBg2">#59ABE3</color>-->
+    <color name="colorIcons">#34495E</color>
+    <color name="colorIcons2">#ECF0F1</color>
+    <!--<color name="colorContactsBg">#019875</color>-->
+    <color name="colorCardViewBg">#44ffffff</color>
+    <color name="colorTopicsBg">#ecf0f1</color>
+</resources>

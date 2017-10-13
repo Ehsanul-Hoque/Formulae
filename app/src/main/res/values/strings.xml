@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Formulae</string>
+    <string name="field_math">Mathematics</string>
+    <string name="field_physics">Physics</string>
+    <string name="title_activity_details">Details</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    
+    <string name="formulas"> "<p>$$\\text\"Maximum Height, \" H = {v_0^2 sin^2θ_0}/{2g}$$</p>"
+						"<p>$$\\text\"Horizontal Range, \" R = {v_0^2 sin2θ_0}/{g}$$</p>\n"
+						"<p>$$\\text\"Time of Flight, \" T = {2v_0 sinθ_0}/{g}$$</p>\n"
+						"<p>$$\\text\"Half-time of Flight, \" t = {v_0 sinθ_0}/{g}$$</p>\n"</string>
+
+    <string name="sDesc">A circle is a plane figure bounded by one line, and such that all right lines drawn from a certain point within it to the bounding line, are equal.
+                The bounding line is called its circumference and the point, its centre.<br/><br/>
+                <pre>    — Euclid. Elements Book I.</pre><br/><img src = "image_circle.jpeg" width = "100" height = "100"/></string>
+</resources>
