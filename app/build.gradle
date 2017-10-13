@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        formulae_config {
-            keyAlias 'key0'
-            keyPassword 'Rubaiya143'
-            storePassword 'Rubaiya143'
-            storeFile file('C:/Users/Public/AndroidStudioProjects/Formulae/formulae_keystore.jks')
-        }
-    }
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
